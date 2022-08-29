@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "OWid8Lyjls84oNa4qWR+RBYvUpkxLIhiK+/ZD8rrMobCnF3HfTp4T0cXTDRloFLYF9Vf71QUK8cgwM3QgAQTEQ==",
+  "success": true,
+  "projectFilePath": "/Users/derekgriffin/Desktop/repos/DebugEx1/ProblematicProblem/ProblematicProblem/ProblematicProblem.csproj",
+  "expectedPackageFiles": [
+    "/Users/derekgriffin/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/derekgriffin/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.28/microsoft.netcore.app.host.osx-x64.3.1.28.nupkg.sha512",
+    "/Users/derekgriffin/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
