@@ -65,7 +65,7 @@ static bool cont = true;
             }
             Console.WriteLine();
             Console.WriteLine("Would you like to add more? yes/no: ");
-            addToList = bool.Parse(Console.ReadLine());
+                    bool addList = (Console.ReadLine().ToLower() == "Yes") ? true : false;
         }
     }
 
@@ -94,13 +94,13 @@ static bool cont = true;
 
             activities.Remove(randomActivity);
 
-            //string randomNumber = rng.Next(activities.Count);
+                     randomNumber = rng.Next(activities.Count);
 
-            //string randomActivity = activities[randomNumber];
+                     randomActivity = activities[randomNumber];
         }
                 Console.Write($"Ah got it! {randomActivity}, your random activity is: {userName}! Is this ok or do you want to grab another activity? Keep/Redo: ");
                 Console.WriteLine();
-           cont = bool.Parse(Console.ReadLine());
+               bool conti = (Console.ReadLine().ToLower() == "Yes") ? true : false;
     }
 }
     }
